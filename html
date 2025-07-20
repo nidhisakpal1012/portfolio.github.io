@@ -1,0 +1,147 @@
+<!-- Main container for the app -->
+<div class="min-h-screen bg-gradient-to-br from-purple-100 to-blue-100 ...">
+  <!-- Input Section (Left side) -->
+  <div class="lg:w-1/2 bg-white p-6 md:p-8 rounded-lg shadow-xl ...">
+    <h1>Portfolio Builder</h1>
+
+    <!-- Basic Info Section -->
+    <div>
+      <label for="name">Your Name</label>
+      <input type="text" id="name" value="..." />
+    </div>
+    <div>
+      <label for="tagline">Tagline</label>
+      <input type="text" id="tagline" value="..." />
+    </div>
+    <div>
+      <label for="about">About You</label>
+      <textarea id="about">...</textarea>
+    </div>
+    <div>
+      <label for="avatarUrl">Avatar Image URL</label>
+      <input type="url" id="avatarUrl" value="..." />
+    </div>
+
+    <!-- Skills Section -->
+    <div>
+      <label>Skills</label>
+      <div>
+        <!-- Dynamically rendered skill tags -->
+        <span>Skill 1 <button>Remove</button></span>
+        <span>Skill 2 <button>Remove</button></span>
+        <!-- ... -->
+      </div>
+      <div>
+        <input type="text" placeholder="Add a new skill" />
+        <button>Add Skill</button>
+      </div>
+    </div>
+
+    <!-- Experiences Section -->
+    <div>
+      <label>Experiences</label>
+      <div>
+        <!-- Dynamically rendered experience entries -->
+        <div>
+          <h4>Job Title at Company</h4>
+          <p>Duration</p>
+          <p>Description</p>
+        </div>
+        <!-- ... -->
+      </div>
+      <div>
+        <input type="text" placeholder="Job Title" />
+        <input type="text" placeholder="Company Name" />
+        <input type="text" placeholder="Duration" />
+        <textarea placeholder="Description"></textarea>
+        <button>Add Experience</button>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div>
+      <label>Projects</label>
+      <div>
+        <!-- Dynamically rendered project entries -->
+        <div>
+          <h4>Project Title</h4>
+          <p>Project Description</p>
+          <a href="#">View Project</a>
+        </div>
+        <!-- ... -->
+      </div>
+      <div>
+        <input type="text" placeholder="Project Title" />
+        <textarea placeholder="Project Description"></textarea>
+        <input type="url" placeholder="Project Link" />
+        <button>Add Project</button>
+      </div>
+    </div>
+
+    <!-- Contact Info Section -->
+    <div>
+      <label for="contactEmail">Contact Email</label>
+      <input type="email" id="contactEmail" value="..." />
+    </div>
+  </div>
+
+  <!-- Portfolio Preview Section (Right side) -->
+  <div class="lg:w-1/2 bg-white p-6 md:p-8 rounded-lg shadow-xl ...">
+    <h2>Portfolio Preview</h2>
+
+    <!-- Header Section -->
+    <div>
+      <img src="..." alt="Avatar" />
+      <h1>John Doe</h1>
+      <p>Full-stack Developer | Designer | Innovator</p>
+    </div>
+
+    <!-- About Section -->
+    <section>
+      <h3>About Me</h3>
+      <p>...</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section>
+      <h3>Skills</h3>
+      <div>
+        <span>Skill 1</span>
+        <span>Skill 2</span>
+        <!-- ... -->
+      </div>
+    </section>
+
+    <!-- Experiences Section -->
+    <section>
+      <h3>Experience</h3>
+      <div>
+        <div>
+          <h4>Job Title</h4>
+          <p>Company (Duration)</p>
+          <p>Description</p>
+        </div>
+        <!-- ... -->
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section>
+      <h3>Projects</h3>
+      <div>
+        <div>
+          <h4>Project Title</h4>
+          <p>Project Description</p>
+          <a href="#">View Project</a>
+        </div>
+        <!-- ... -->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section>
+      <h3>Contact</h3>
+      <p>You can reach me at: <a href="mailto:...">john.doe@example.com</a></p>
+    </section>
+  </div>
+</div>
